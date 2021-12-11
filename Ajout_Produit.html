@@ -1,0 +1,111 @@
+<div class="content-body">
+    <div class="container-fluid">
+        <div class="form-head d-flex mb-3 align-items-start">
+            <div class="mr-auto d-none d-lg-block">
+                <div class="mr-auto d-none d-lg-block">
+                    <h2 class="text-black font-w600 mb-0">Ajout Produit</h2>
+                   
+                </div>
+                            
+      <div class="dropdown custom-dropdown">
+        <label class="card-title" for="validationCustom18"><span style="color:rgb(100, 6, 69); font-size:15px">Product Name</span></label><br>
+        <div class="input-group">
+          <input type="text" class="form-control" id="validationCustom18" placeholder="Product Name" value="" required="">
+        </div><br>
+        
+        <label class="card-title" for="validationCustom22"><span style="color:rgb(100, 6, 69); font-size:15px">Select Catagory</span></label>
+        <div class="input-group">
+          <select class="form-control" id="validationCustom22" required="">
+            <option value="">Parfum</option>
+            <option value="">lipstick</option>
+            <option value="">coffret</option>
+            <option value="">makeup</option>
+
+          
+
+          </select>
+          <div class="invalid-feedback">
+            <p>Please select a Catagory.</p>
+          </div>
+        </div>
+        <br>
+        
+        <label class="card-title" for="validationCustom25"><span style="color:rgb(100, 6, 69);font-size:15px">Price</span></label>
+        <div class="input-group">
+          <input type="text" class="form-control" id="validationCustom25" placeholder="Give the price" required="">
+          <div class="invalid-feedback">
+            Price
+          </div>
+        </div><br>
+        <label class="card-title" for="validationCustom12"><span style="color:rgb(100, 6, 69);font-size:15px">Description</span></label>
+        <div class="input-group">
+          <textarea rows="5" id="validationCustom12" class="form-control" placeholder="Message" required=""></textarea>
+          <div class="invalid-feedback">
+           send us a  message.
+          </div>
+        </div><br>
+        <label class="card-title" for="validationCustom12"><span style="color:rgb(100, 6, 69); font-size:15px">Product Image</span></label>
+        <div class="custom-file">
+          <input type="file" class="custom-file-input" id="validatedCustomFile">
+          <label class="custom-file-label" for="validatedCustomFile">Upload Images...</label>
+        </div><br><br>
+    
+     
+      
+    </div>
+    <div class="ms-panel-header new">
+      <button class="btn btn-danger " type="reset" style=" margin-right:740px"onclick="myFunction()">Cancel</button>
+      <button class="btn btn-primary " type="submit">Save</button>
+    </div>
+        <br><br><br>
+      
+ </div>
+ 
+                    </div>
+                </div>
+                                                                    
+            </div>
+        
+    </div>
+    
+</div>
+</div>
+</div>
+<br>
+<div class="modal fade" id="modalUpdate" tabindex="-1" role="dialog" aria-labelledby="modalUpdatePro" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered" role="document">
+<div class="modal-content">
+    <div class="modal-header bg-primary">
+        <h6 class="modal-title"><i class="la la-frown-o"></i> BeautyShop dashboard</h6>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    
+    <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+    </div>
+</div>
+</div>
+</div>
+
+
+
+
+<script>
+$( function() {
+$( "#slider" ).slider({
+range: "min",
+max: 100,
+value: 40,
+});
+$( "#slider-range" ).slider({
+range: true,
+min: 0,
+max: 500,
+values: [ 75, 300 ]
+});
+} );
+</script>
+</body>
+</html>
